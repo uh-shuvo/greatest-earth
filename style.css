@@ -1,0 +1,59 @@
+body {}
+
+.container {}
+
+.heroes-section {
+    margin: 0 auto;
+    width: 1120px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.heroeses {
+    display: flex;
+}
+
+.heroes {
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.heroes-title {
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 55px;
+    color: white;
+}
+
+.heroes-para {
+    font-size: 16px;
+    font-weight: 400;
+    list-style: 40px;
+    color: white;
+}
+
+.btn {
+    padding: 12px 23px;
+    font-size: 16px;
+    background: #DD0000;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 100px;
+}
+
+.btn i {
+    margin-left: 5px;
+}
+
+.heroes-photo img {
+    width: 515px;
+    height: 617px;
+    margin-left: 40px;
+    transition: width 2s, ease-in 2s ease 1s, height 3s, transform 1s;
+}
+
+.heroes-photo img:hover {
+    transform: rotate(365deg);
+}
