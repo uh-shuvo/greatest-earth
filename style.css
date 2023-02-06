@@ -85,7 +85,7 @@ input {
     padding: 10px 5px;
     border-radius: 6px;
     text-align: center;
-    font-size: 16px;
+    font-size: 11px;
     font-weight: 600;
     color: black;
 }
@@ -93,4 +93,20 @@ input {
 .blog {
     background-color: #DD0000;
 
+}
+
+/* feature section start 
+======================== */
+.feature-section {
+    display: flex;
+}
+
+.features {
+    margin-left: 20px;
+}
+
+.feature-thumbnail img {
+    width: 280px;
+    height: 150px;
+    border-radius: 10px 10px 0px 0px;
 }
