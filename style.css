@@ -119,5 +119,11 @@ input {
 
 .feature-details {
     margin-top: 15px;
-    margin-left: 20px;
+    margin-left: 15px;
+}
+
+button {
+    padding: 3px 12px;
+    font-size: 14px;
+    font-weight: 400;
 }
