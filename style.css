@@ -116,3 +116,8 @@ input {
     width: 282px;
     height: 150px;
 }
+
+.feature-details {
+    margin-top: 15px;
+    margin-left: 20px;
+}
