@@ -97,3 +97,22 @@ input {
 
 /* feature section start 
 ======================== */
+.feature-section {
+    margin-left: 25px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.feature {
+    display: flex;
+}
+
+.feature-thumbnail img {
+    width: 282px;
+    height: 150px;
+}
